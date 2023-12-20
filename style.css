@@ -1,0 +1,36 @@
+#heading{
+    text-align: center;
+}
+.box{
+    border: 3px solid pink;
+}
+
+#square1 ,#square2 ,#square3{
+ height: 100px;
+background-color: blueviolet;
+margin: 30px;
+text-align: center;
+border-radius: 20px;
+display: inline;
+}
+
+.square2:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.container{
+ background-color: yellow;
+}
+
+.square{
+    height: 100px;
+    background-color: blueviolet;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.container ,.square{
+    border-radius: 40px;
+   }
